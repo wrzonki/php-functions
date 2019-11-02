@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,700,500);
+body{
+	background: #81C784;
+	height:3000px;
+}
+body a{
+	text-decoration: none;
+	color: #fff;
+
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	line-height: 75px;
+	font-size: 4em;
+	color: #fff;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	color:#fff;
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	line-height: 75px;
+	font-size: 2em;
+	color: #fff;
+}
+header{
+	text-align: center;
+	height:auto;
+	width: 100%;
+	background: #81C784;
+	color: #fff;
+}
+.zadanie{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	width:100%;
+	opacity: 1;
+	height:100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 3em;
+	-webkit-transition: all  ease-out .3s;
+    -moz-transition: all  ease-out .3s;
+    -o-transition: all  ease-out .3s;
+    transition: all  ease-out .3s;
+}
+.zadanie:hover{
+	opacity: 0.6;
+}
+.zadanie a{
+	text-decoration: none;
+	color:#fff;
+}
+.kolor1{
+	background:#BA68C8;
+}
+.kolor2{
+	background: #AB47BC;
+}
+.kolor3{
+	background: #9C27B0;
+}
+.kolor4{
+	background: #8E24AA;
+}
+.kolor5{
+	background: #7B1FA2;
+}
+.kolor6{
+	background: #6A1B9A;
+}
+.kolor7{
+	background: #4A148C;
+}
+.zapytanie{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	color:#fff;
+	text-align: center;
+}
+.zad1_form{
+	display: block;
+	width:600px;
+	margin:0 auto;
+	text-align: center;
+}
+.wrap_zad{
+	width:900px;
+	margin: 0 auto;
+	text-align: center;
+}
+.strona_glowna{
+	height: 150px;
+	line-height: 150px;
+	position:fixed;
+	top:80vh;
+	left:0;
+	width:400px;
+	font-size: 3em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	opacity: 1;
+	text-align: center;
+	background: #00BCD4;
+	color:#fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+span{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	color:#fff;
+}
+hr{
+	width:250px;
+}
+table{
+	width:500px;
+	margin:0 auto;
+	text-align: center;
+}
+table tr{
+	border: 2px solid silver;
+}
+table tr td{
+	padding: 15px;
+}
+.nieaktywny{
+	background: #5D5C58;
+	border-top:1px solid black;
+}
